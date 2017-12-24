@@ -173,7 +173,7 @@ public class DataStructurePartB<T> implements ListInterface<T> {
             }else{
                 Node found = myEqualsByPosition(position);
                 if(position <= size){
-                    if (position == size) { //remove last node
+                    if (position + 1 == size) { //remove last node
                         lastNode = found.previous;
                         lastNode.next = null;
                     } else {
@@ -209,15 +209,6 @@ public class DataStructurePartB<T> implements ListInterface<T> {
         } else {
             System.out.println("The current list is empty.");
         }
-        
-//        String str = "";
-//        Node temp = firstNode;
-//        while (temp != null) {
-//            str += temp.data + " ";
-//            temp = temp.next;
-//        }
-//
-//        return str;
     }
 
     @Override

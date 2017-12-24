@@ -68,7 +68,7 @@ public class DeliveryManMenu {
                 aList.add(dd);
                 System.out.println("Delivery Man added successfully");
             } else if (selection == 2) {
-                System.out.printf("%3s %20s %20s %20s %20s %4s %20s %20s\n", "No.", "Name", "ID", "IC", "PhoneNumber", "Age", "Address", "Status");
+                System.out.printf("No.     " + "Name             " + "ID                    " + "IC                 " + "Phone Number         " + "Age   " + "Address             " + "Status" + "\n");
                 System.out.println("=========================================================================================================================");
                 aList.getAll();
                 System.out.printf("Delivery Man record to delete: ");
@@ -77,9 +77,11 @@ public class DeliveryManMenu {
                 aList.removeByPosition(deleteNo);
                 System.out.println("Records Delete suceesfully!");
             } else if (selection == 3) {
+                System.out.printf("No.     " + "Name             " + "ID                    " + "IC                 " + "Phone Number         " + "Age   " + "Address             " + "Status" + "\n");
+                System.out.println("=========================================================================================================================");
                 aList.getAll();
             } else if (selection == 4) {
-                System.out.printf("%3s %20s %20s %20s %20s %4s %20s %20s\n", "No.", "Name", "ID", "IC", "PhoneNumber", "Age", "Address", "Status");
+                System.out.printf("No.     " + "Name             " + "ID                    " + "IC                 " + "Phone Number         " + "Age   " + "Address             " + "Status" + "\n");
                 System.out.println("=========================================================================================================================");
                 aList.getAll();
                 System.out.printf("Enter Delivery Man ID to update: ");
