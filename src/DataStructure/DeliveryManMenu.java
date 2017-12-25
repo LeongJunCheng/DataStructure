@@ -16,11 +16,7 @@ public class DeliveryManMenu {
     public void DeliveryMan() {
         Scanner s = new Scanner(System.in);
         ListInterface<DeliveryManDomain> aList = new DataStructurePartB<DeliveryManDomain>();
-        DeliveryManDomain dd = new DeliveryManDomain("Leong", "S001", "123456", "012-3456789", 18, "1963, Jalan G1", "Employed");
-        aList.add(dd);
-        aList.add(new DeliveryManDomain("JC", "S002", "123456", "012-3456789", 18, "1963, Jalan G1", "Employed"));
-        aList.add(new DeliveryManDomain("CCCC", "S003", "123456", "012-3456789", 18, "1963, Jalan G1", "Employed"));
-        aList.add(new DeliveryManDomain("HDGDGDG", "S004", "123456", "012-3456789", 18, "1963, Jalan G1", "Employed"));
+        DeliveryManDomain dd = new DeliveryManDomain();
         int selection = 0;
 
         do {
