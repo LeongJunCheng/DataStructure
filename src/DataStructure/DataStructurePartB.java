@@ -217,11 +217,4 @@ public class DataStructurePartB<T> implements ListInterface<T> {
         lastNode = null;
         size = 0;
     }
-
-
-    @Override
-    public boolean isFull() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
 }

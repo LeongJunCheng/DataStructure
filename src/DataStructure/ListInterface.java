@@ -28,6 +28,4 @@ public interface ListInterface<T> {
     public int getSize();
 
     public boolean isEmpty();
-
-    public boolean isFull();
 }
